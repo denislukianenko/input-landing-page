@@ -1,0 +1,42 @@
+{
+  "name": "weather-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "serve": "parcel src/index.html",
+    "prebuild": "shx rm -rf dist",
+    "build": "parcel build --public-url /input-landing-page/ src/index.html",
+    "push-dist": "push-dir --dir=dist --branch=gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denislukianenko/input-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denislukianenko/input-landing-page/issues"
+  },
+  "homepage": "https://github.com/denislukianenko/input-landing-page#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.4.9",
+    "cssnano": "^4.1.10",
+    "sass": "^1.17.2",
+    "shx": "^0.3.2"
+  },
+  "dependencies": {
+    "heat-index": "0.0.3",
+    "normalize.css": "^8.0.1"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1% in UA",
+    "not dead"
+  ],
+  "postcss": {
+    "plugins": {
+      "autoprefixer": true
+    }
+  }
+}
