@@ -1,0 +1,118 @@
+.header {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.header-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/header-bg.png);
+  background-size: 100% 100%;
+}
+
+.rhombuses-svg {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+}
+
+.rhombus-darkus {
+  transition: transform 500ms ease-in-out;
+}
+
+.header:hover .rhombus-darkus {
+  transform: scale(1.1);
+}
+
+// .rhombus {
+//   position: absolute;
+//   background-color: hsla(0, 0, 0, 0.2);
+//   transition: transform 500ms ease-in-out;
+//   transform: translate(calc(50vw - 50%), calc(50vh - 50%)) rotate(45deg)
+//     scale(1);
+// }
+
+// .rhombus:nth-of-type(15) {
+//   width: 100px;
+//   height: 100px;
+//   transition-delay: 0;
+// }
+// .rhombus:nth-of-type(14) {
+//   width: 200px;
+//   height: 200px;
+//   transition-delay: 40ms;
+// }
+// .rhombus:nth-of-type(13) {
+//   width: 300px;
+//   height: 300px;
+//   transition-delay: 80ms;
+// }
+// .rhombus:nth-of-type(12) {
+//   width: 400px;
+//   height: 400px;
+//   transition-delay: 120ms;
+// }
+// .rhombus:nth-of-type(11) {
+//   width: 500px;
+//   height: 500px;
+//   transition-delay: 160ms;
+// }
+// .rhombus:nth-of-type(10) {
+//   width: 600px;
+//   height: 600px;
+//   transition-delay: 200ms;
+// }
+// .rhombus:nth-of-type(9) {
+//   width: 700px;
+//   height: 700px;
+//   transition-delay: 240ms;
+// }
+// .rhombus:nth-of-type(8) {
+//   width: 800px;
+//   height: 800px;
+//   transition-delay: 280ms;
+// }
+// .rhombus:nth-of-type(7) {
+//   width: 900px;
+//   height: 900px;
+//   transition-delay: 320ms;
+// }
+// .rhombus:nth-of-type(6) {
+//   width: 1000px;
+//   height: 1000px;
+//   transition-delay: 360ms;
+// }
+// .rhombus:nth-of-type(5) {
+//   width: 1100px;
+//   height: 1100px;
+//   transition-delay: 400ms;
+// }
+// .rhombus:nth-of-type(4) {
+//   width: 1200px;
+//   height: 1200px;
+//   transition-delay: 440ms;
+// }
+// .rhombus:nth-of-type(3) {
+//   width: 1300px;
+//   height: 1300px;
+//   transition-delay: 480ms;
+// }
+// .rhombus:nth-of-type(2) {
+//   width: 1400px;
+//   height: 1400px;
+//   transition-delay: 520ms;
+// }
+// .rhombus:nth-of-type(1) {
+//   width: 1500px;
+//   height: 1500px;
+//   transition-delay: 560ms;
+// }
+
+// .header:hover > .rhombuses-darkus > .rhombus,
+// .header:hover > .rhombuses-borders > .rhombus-border {
+//   transform: translate(calc(50vw - 50%), calc(50vh - 50%)) rotate(45deg)
+//     scale(1.2);
+// }
