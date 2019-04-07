@@ -13,7 +13,13 @@
   background-image: url(../img/header-bg-light.jpg);
   background-size: 100% 100%;
 }
-
+.rhombuses-darkus {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  qposition: absolute;
+}
 .rhombus {
   z-index: -1;
   position: absolute;
